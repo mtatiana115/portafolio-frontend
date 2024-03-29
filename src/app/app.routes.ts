@@ -1,3 +1,13 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+// Routes
+import { layoutRoutes } from '@layout/layout.routes';
+
+export const routes: Routes = [
+	{
+		path: '',
+		loadComponent: () =>
+			import('@layout/page/layout-page.component').then((c) => c.LayoutPageComponent),
+		children: layoutRoutes,
+	},
+];
