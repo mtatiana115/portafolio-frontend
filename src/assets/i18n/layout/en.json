@@ -1,0 +1,19 @@
+{
+	"menu": [
+		{
+			"label": "Section 1",
+			"modulePath": "/home",
+			"fragmentLink": "section-1"
+		},
+		{
+			"label": "Section 2",
+			"modulePath": "/home",
+			"fragmentLink": "section-2"
+		},
+		{
+			"label": "Section 3",
+			"modulePath": "/home",
+			"fragmentLink": "section-3"
+		}
+	]
+}
