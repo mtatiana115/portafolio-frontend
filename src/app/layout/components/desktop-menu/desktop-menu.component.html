@@ -1,0 +1,10 @@
+<ul class="__menu">
+	@for (item of menu; track $index) {
+		<a
+			class="__item"
+			[routerLink]="item.modulePath"
+			[fragment]="item.fragmentLink">
+			<span>{{ item.label }}</span>
+		</a>
+	}
+</ul>
