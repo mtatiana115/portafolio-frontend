@@ -1,0 +1,13 @@
+.main-container {
+	@apply flex
+    items-center
+    justify-between;
+
+	.__logo {
+		@apply w-32;
+	}
+
+	.__menu-desktop {
+		@apply w-fit;
+	}
+}
