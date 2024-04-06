@@ -1,0 +1,11 @@
+.main-container {
+	.__header {
+		@apply flex
+        justify-center
+        px-4;
+		.__container {
+			@apply max-w-[1300px]
+            w-full;
+		}
+	}
+}
