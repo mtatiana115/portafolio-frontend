@@ -1,0 +1,12 @@
+.__button {
+	@apply flex
+    items-center
+    justify-center
+    px-4
+    py-2
+    rounded-md
+    bg-red-200
+    cursor-pointer
+    transition-all
+    hover:scale-105;
+}
