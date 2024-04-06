@@ -1,0 +1,49 @@
+@layer components {
+	.global__heading-1 {
+		@apply text-4xl;
+
+		strong {
+			@apply font-semibold;
+		}
+	}
+
+	.global__heading-2 {
+		@apply text-3xl;
+
+		strong {
+			@apply font-semibold;
+		}
+	}
+
+	.global__heading-3 {
+		@apply text-2xl;
+
+		strong {
+			@apply font-semibold;
+		}
+	}
+
+	.global__heading-4 {
+		@apply text-xl;
+
+		strong {
+			@apply font-semibold;
+		}
+	}
+
+	.global__text-1 {
+		@apply text-base;
+
+		strong {
+			@apply font-medium;
+		}
+	}
+
+	.global__text-2 {
+		@apply text-sm;
+
+		strong {
+			@apply font-medium;
+		}
+	}
+}

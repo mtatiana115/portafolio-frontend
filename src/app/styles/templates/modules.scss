@@ -1,0 +1,14 @@
+@layer components {
+	.global__modules-container {
+		.__section {
+			@apply flex
+        justify-center
+        py-10;
+
+			.__container {
+				@apply w-full
+            max-w-[1300px];
+			}
+		}
+	}
+}
