@@ -1,19 +1,24 @@
 {
 	"menu": [
 		{
-			"label": "Sección 1",
+			"label": "Acerca de mi",
 			"modulePath": "/home",
 			"fragmentLink": "seccion-1"
 		},
 		{
-			"label": "Sección 2",
+			"label": "Proyectos",
 			"modulePath": "/home",
 			"fragmentLink": "seccion-2"
 		},
 		{
-			"label": "Sección 3",
+			"label": "Formación",
 			"modulePath": "/home",
 			"fragmentLink": "seccion-3"
+		},
+		{
+			"label": "Contáctame",
+			"modulePath": "/home",
+			"fragmentLink": "seccion-4"
 		}
 	]
 }
