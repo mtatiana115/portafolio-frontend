@@ -1,15 +1,33 @@
 <div class="global__modules-container">
-	<section class="__section --image-section">
+	<section
+		class="__section --image-section"
+		[id]="'HOMESECTION1.sectionUrl' | translate"
+		ngxScrollAnimate
+		[once]="false"
+		[aos]="100"
+		[thresholdMode]="'pixel'">
 		<div class="__container">
 			<app-section-1></app-section-1>
 		</div>
 	</section>
-	<section class="__section">
+	<section
+		class="__section"
+		[id]="'HOMESECTION2.sectionUrl' | translate"
+		ngxScrollAnimate
+		[once]="false"
+		[aos]="100"
+		[thresholdMode]="'pixel'">
 		<div class="__container">
 			<app-section-2></app-section-2>
 		</div>
 	</section>
-	<section class="__section">
+	<section
+		class="__section"
+		[id]="'HOMESECTION3.sectionUrl' | translate"
+		ngxScrollAnimate
+		[once]="false"
+		[aos]="100"
+		[thresholdMode]="'pixel'">
 		<div class="__container">
 			<app-section-3></app-section-3>
 		</div>

@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'node_modules/ngx-scroll-animations/styles/animations.min.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import 'src/app/styles/global.scss';
 @import 'src/app/styles/templates/modules.scss';
 @import 'src/app/styles/components/texts.scss';

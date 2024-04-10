@@ -11,8 +11,4 @@ import { ButtonComponent } from 'src/app/shared/ui/molecules/button/button.compo
 	templateUrl: './section-1.component.html',
 	styleUrl: './section-1.component.scss',
 })
-export class Section1Component {
-	aboutMeClick() {
-		console.log('Hola');
-	}
-}
+export class Section1Component {}
