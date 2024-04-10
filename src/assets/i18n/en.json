@@ -1,1 +1,6 @@
-{}
+{
+	"languages": [
+		{ "keyword": "es", "label": "Spanish", "icon": "assets/svg/icons/espana.png" },
+		{ "keyword": "en", "label": "English", "icon": "assets/svg/icons/reino-unido.png" }
+	]
+}

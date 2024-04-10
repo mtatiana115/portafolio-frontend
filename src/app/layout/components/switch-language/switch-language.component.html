@@ -1,0 +1,27 @@
+<div class="main-container">
+	<div
+		class="__choosen __common-styles"
+		(click)="toggleOptions()">
+		<img
+			class="__icon"
+			[src]="choosenLanguage?.icon"
+			alt="flag" />
+		<span class="global__text-2">{{ choosenLanguage?.label }}</span>
+	</div>
+	<ul
+		class="__options"
+		[ngClass]="{ '--open': isOpen }">
+		@for (item of languages; track $index) {
+			<li
+				class="__option __common-styles"
+				(click)="switchLanguage(item.keyword)"
+				(click)="toggleOptions()">
+				<img
+					class="__icon"
+					[src]="item.icon"
+					alt="flag" />
+				<span class="global__text-2">{{ item.label }}</span>
+			</li>
+		}
+	</ul>
+</div>

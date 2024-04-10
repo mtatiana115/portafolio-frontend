@@ -1,9 +1,13 @@
-<article>
-	<h2 class="global__heading-2">{{ 'HOMESECTION1.title' | translate }}</h2>
-	<p class="global__text-1">{{ 'HOMESECTION1.text-1' | translate }}</p>
-	<div>
-		<app-button
-			[text]="'HOMESECTION1.button.text' | translate"
-			(clickButton)="aboutMeClick()"></app-button>
+<article class="main-container">
+	<div class="__content">
+		<h2 class="global__heading-2 __title">
+			{{ 'HOMESECTION1.title' | translate }}
+		</h2>
+		<p class="global__text-1">{{ 'HOMESECTION1.text-1' | translate }}</p>
+		<div>
+			<app-button
+				[text]="'HOMESECTION1.button.text' | translate"
+				(clickButton)="aboutMeClick()"></app-button>
+		</div>
 	</div>
 </article>

@@ -1,0 +1,28 @@
+.main-container {
+	@apply relative;
+
+	.__common-styles {
+		@apply flex
+		items-center
+		gap-2
+		py-1
+		px-2;
+	}
+
+	.__icon {
+		@apply w-8
+		h-8;
+	}
+
+	.__options {
+		@apply absolute
+        invisible
+        opacity-0
+		bg-red-100;
+
+		&.--open {
+			@apply visible
+            opacity-100;
+		}
+	}
+}

@@ -1,8 +1,15 @@
 .main-container {
 	.__header {
-		@apply flex
+		@apply fixed
+		top-0
+		left-0
+		flex
         justify-center
+		w-full
         px-4;
+		background: rgb(255, 255, 255);
+		background: linear-gradient(129deg, rgba(255, 255, 255, 1) 40%, rgba(251, 180, 156, 1) 70%);
+
 		.__container {
 			@apply max-w-[1300px]
             w-full;

@@ -8,6 +8,13 @@
 	}
 
 	.__menu-desktop {
-		@apply w-fit;
+		@apply hidden
+		lg:block
+		lg:w-fit;
+	}
+
+	.__menu-mobile {
+		@apply w-8
+		lg:hidden;
 	}
 }

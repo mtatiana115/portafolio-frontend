@@ -9,6 +9,11 @@
 				@apply w-full
             max-w-[1300px];
 			}
+
+			&:nth-child(1) {
+				border: solid 2px orange;
+				@apply mt-[128px];
+			}
 		}
 	}
 }

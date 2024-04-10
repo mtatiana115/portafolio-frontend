@@ -1,0 +1,25 @@
+.main-container {
+	@apply flex
+        items-center
+        w-full
+        h-full
+        max-lg:justify-center;
+
+	.__content {
+		@apply w-[90%]
+        space-y-3
+
+        lg:w-[40%]
+        lg:ml-auto
+        lg:mr-10;
+
+		.__title {
+			@apply bg-clip-text
+            text-transparent
+            bg-gradient-to-r
+            from-pink-500
+            to-violet-500
+            font-black;
+		}
+	}
+}
