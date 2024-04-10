@@ -10,4 +10,11 @@ export const layoutRoutes: Routes = [
 		path: 'home',
 		loadComponent: () => import('@home/page/home-page.component').then((c) => c.HomePageComponent),
 	},
+	{
+		path: 'privacy-policy',
+		loadComponent: () =>
+			import('@privacy-policy/page/privacy-policy-page.component').then(
+				(c) => c.PrivacyPolicyPageComponent
+			),
+	},
 ];
