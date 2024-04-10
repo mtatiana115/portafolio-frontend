@@ -1,1 +1,9 @@
-<p>section-2 works!</p>
+<div class="main-container">
+	<div class="__cards">
+		@for (project of projects; track $index) {
+			<div class="__card">
+				<app-project-card [project]="project"></app-project-card>
+			</div>
+		}
+	</div>
+</div>
