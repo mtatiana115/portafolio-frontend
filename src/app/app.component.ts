@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
 	private _platformId = inject(PLATFORM_ID);
 
 	title = 'portafolio-frontend';
+
 	ngOnInit(): void {
 		if (isPlatformBrowser(this._platformId)) {
 			this.translationsConfig();

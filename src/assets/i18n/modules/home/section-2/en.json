@@ -1,0 +1,56 @@
+{
+	"sectionUrl": "section-2",
+	"projects": [
+		{
+			"title": "Proyecto 1",
+			"properties": [
+				{
+					"label": "Date",
+					"value": "2022"
+				},
+				{
+					"label": "Description",
+					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+				},
+				{
+					"label": "Technologies",
+					"value": "HTML, CSS, JavaScript"
+				}
+			]
+		},
+		{
+			"title": "Proyecto 2",
+			"properties": [
+				{
+					"label": "Date",
+					"value": "2023"
+				},
+				{
+					"label": "Description",
+					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+				},
+				{
+					"label": "Technologies",
+					"value": "HTML, CSS, JavaScript"
+				}
+			]
+		},
+		{
+			"title": "Proyecto 3",
+			"properties": [
+				{
+					"label": "Date",
+					"value": "2024"
+				},
+				{
+					"label": "Description",
+					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+				},
+				{
+					"label": "Technologies",
+					"value": "HTML, CSS, JavaScript"
+				}
+			]
+		}
+	]
+}
