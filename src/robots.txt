@@ -1,0 +1,9 @@
+# robots.txt
+
+User-agent: *
+Allow: /home
+Disallow: /privacy-policy
+Disallow: /not-found
+
+# Sitemaps
+Sitemap: https://www.mtatiana115.com/sitemap.xml
