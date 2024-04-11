@@ -2,5 +2,22 @@
 	"languages": [
 		{ "keyword": "es", "label": "Español", "icon": "assets/svg/icons/espana.png" },
 		{ "keyword": "en", "label": "Inglés", "icon": "assets/svg/icons/reino-unido.png" }
+	],
+	"socialMedia": [
+		{
+			"icon": "assets/svg/icons/github.svg",
+			"label": "Github",
+			"link": "https://github.com/mtatiana115"
+		},
+		{
+			"icon": "assets/svg/icons/twitter.svg",
+			"label": "X",
+			"link": "https://twitter.com/mtatiana115"
+		},
+		{
+			"icon": "assets/svg/icons/linkedin.svg",
+			"label": "LinkedIn",
+			"link": "https://co.linkedin.com/mtatiana115"
+		}
 	]
 }

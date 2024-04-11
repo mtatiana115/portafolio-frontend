@@ -1,11 +1,30 @@
 <article class="main-container">
 	<div class="__content">
-		<h2 class="global__heading-2 __title">
-			{{ 'HOMESECTION1.title' | translate }}
+		<h2 class="global__heading-1 __title">
+			<strong>
+				{{ 'HOMESECTION1.title' | translate }}
+			</strong>
 		</h2>
 		<p class="global__text-1">{{ 'HOMESECTION1.text-1' | translate }}</p>
-		<div>
-			<app-button [text]="'HOMESECTION1.button.text' | translate"></app-button>
+		<div class="__buttons">
+			<div class="__button">
+				<app-button
+					[text]="'HOMESECTION1.button.text' | translate"
+					(clickButton)="goTo('/home', section2fragmentLink)"></app-button>
+			</div>
+			<div class="__social-media">
+				@for (item of socialMedia; track $index) {
+					<a
+						class="__item"
+						[href]="item.link"
+						rel="noopener noreferrer"
+						target="_blank">
+						<img
+							[src]="item.icon"
+							[alt]="item.label" />
+					</a>
+				}
+			</div>
 		</div>
 	</div>
 </article>
