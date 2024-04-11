@@ -1,0 +1,25 @@
+{
+	"sectionUrl": "seccion-4",
+	"title": "Contáctame",
+	"form": {
+		"field-1": {
+			"label": "Nombre",
+			"placeholder": "Escribe tu nombre"
+		},
+		"field-2": {
+			"label": "Correo electrónico",
+			"placeholder": "alguien@example.com"
+		},
+		"field-3": {
+			"label": "Asunto",
+			"placeholder": "Escribe el asunto"
+		},
+		"field-4": {
+			"label": "Mensaje",
+			"placeholder": "Escribe tu mensaje"
+		},
+		"button": {
+			"text": "Enviar"
+		}
+	}
+}

@@ -39,6 +39,11 @@ export function ModuleHttpLoaderFactory(http: HttpClient) {
 				moduleName: 'homeSection3',
 				pathTemplate: '{baseTranslateUrl}/modules/home/section-3/{language}',
 			},
+			{
+				baseTranslateUrl,
+				moduleName: 'homeSection4',
+				pathTemplate: '{baseTranslateUrl}/modules/home/section-4/{language}',
+			},
 			//#endregion
 			//#region --------------------------------- Layout Privacy Policy ---------------------------------
 			{

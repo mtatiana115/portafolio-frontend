@@ -1,0 +1,80 @@
+<article class="main-container">
+	<h2 class="global__heading-2">
+		<strong>
+			{{ 'HOMESECTION4.title' | translate }}
+		</strong>
+	</h2>
+	<div class="__content">
+		@if (form) {
+			<form
+				class="__form"
+				[formGroup]="form"
+				(ngSubmit)="onSubmit()">
+				<fieldset class="__field">
+					<label
+						class="global__text-1 __label"
+						for="name">
+						<strong>
+							{{ 'HOMESECTION4.form.field-1.label' | translate }}
+						</strong>
+					</label>
+					<input
+						class="__input"
+						formControlName="name"
+						id="name"
+						type="text"
+						[placeholder]="'HOMESECTION4.form.field-1.placeholder' | translate" />
+				</fieldset>
+				<fieldset class="__field">
+					<label
+						class="global__text-1 __label"
+						for="email">
+						<strong>
+							{{ 'HOMESECTION4.form.field-2.label' | translate }}
+						</strong>
+					</label>
+					<input
+						class="__input"
+						formControlName="email"
+						id="email"
+						type="email"
+						[placeholder]="'HOMESECTION4.form.field-2.placeholder' | translate" />
+				</fieldset>
+				<fieldset class="__field">
+					<label
+						class="global__text-1 __label"
+						for="subject">
+						<strong>
+							{{ 'HOMESECTION4.form.field-3.label' | translate }}
+						</strong>
+					</label>
+					<input
+						class="__input"
+						formControlName="subject"
+						id="subject"
+						type="text"
+						[placeholder]="'HOMESECTION4.form.field-3.placeholder' | translate" />
+				</fieldset>
+				<fieldset class="__field">
+					<label
+						class="global__text-1 __label"
+						for="message">
+						<strong>
+							{{ 'HOMESECTION4.form.field-4.label' | translate }}
+						</strong>
+					</label>
+					<textarea
+						class="__input --textarea"
+						formControlName="message"
+						id="message"
+						cols="50"
+						rows="10"
+						[placeholder]="'HOMESECTION4.form.field-4.placeholder' | translate"></textarea>
+				</fieldset>
+				<div class="__button">
+					<app-button [text]="'HOMESECTION4.form.button.text' | translate"></app-button>
+				</div>
+			</form>
+		}
+	</div>
+</article>

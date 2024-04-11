@@ -1,0 +1,25 @@
+{
+	"sectionUrl": "section-4",
+	"title": "Contact Me",
+	"form": {
+		"field-1": {
+			"label": "Name",
+			"placeholder": "Type your name"
+		},
+		"field-2": {
+			"label": "Email",
+			"placeholder": "someone@example.com"
+		},
+		"field-3": {
+			"label": "Subject",
+			"placeholder": "Type the subject"
+		},
+		"field-4": {
+			"label": "Message",
+			"placeholder": "Type your message"
+		},
+		"button": {
+			"text": "Send"
+		}
+	}
+}

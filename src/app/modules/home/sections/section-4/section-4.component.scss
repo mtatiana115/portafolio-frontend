@@ -1,0 +1,32 @@
+.main-container {
+	.__form {
+		@apply space-y-4
+    w-[90%]
+    mx-auto
+    lg:w-1/2;
+		.__field {
+			.__label {
+				@apply block
+        mb-1;
+			}
+			.__input {
+				@apply block
+        w-full
+        h-10
+        px-4
+        border-2
+        border-rose-100
+        rounded-md
+        focus:border-rose-500;
+				&.--textarea {
+					@apply min-h-24
+          py-2;
+				}
+			}
+		}
+		.__button {
+			@apply w-fit
+      mx-auto;
+		}
+	}
+}
