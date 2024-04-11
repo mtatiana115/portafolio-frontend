@@ -1,19 +1,27 @@
 @if (project) {
-	<article class="proyect-card">
+	<a
+		class="proyect-card"
+		[href]="project.link"
+		rel="noopener noreferrer"
+		target="_blank">
 		<img
 			class="__image"
 			[src]="project.image"
 			[alt]="project.title" />
-		<div>
-			<h3 class="global__heading-3">
+		<div class="__texts">
+			<h3 class="global__heading-3 __title">
 				<strong>{{ project.title }}</strong>
 			</h3>
 			@for (property of project.properties; track $index) {
 				<div class="__wrapper">
-					<p class="global__text-1">{{ property.label }}</p>
-					<p class="global__text-1">{{ property.value }}</p>
+					<p class="global__text-1 __label">
+						<strong>{{ property.label }}:</strong>
+					</p>
+					<p
+						class="global__text-1 __value"
+						[innerHTML]="property.value"></p>
 				</div>
 			}
 		</div>
-	</article>
+	</a>
 }

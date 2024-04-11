@@ -3,7 +3,7 @@ import { Component, OnDestroy, OnInit, PLATFORM_ID, inject } from '@angular/core
 import { Subscription } from 'rxjs';
 
 // Services
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 // Components
 import { ProjectCardComponent } from '@shared/ui/organisms/project-card/project-card.component';
@@ -11,7 +11,7 @@ import { ProjectCardComponent } from '@shared/ui/organisms/project-card/project-
 @Component({
 	selector: 'app-section-2',
 	standalone: true,
-	imports: [ProjectCardComponent],
+	imports: [TranslateModule, ProjectCardComponent],
 	templateUrl: './section-2.component.html',
 	styleUrl: './section-2.component.scss',
 })

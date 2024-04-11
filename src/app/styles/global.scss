@@ -1,4 +1,7 @@
 @layer base {
+	* {
+		@apply focus:outline-rose-500;
+	}
 	html {
 		@apply scroll-smooth;
 	}

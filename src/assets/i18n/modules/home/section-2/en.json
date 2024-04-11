@@ -1,8 +1,10 @@
 {
 	"sectionUrl": "section-2",
+	"title": "My Projects",
 	"projects": [
 		{
-			"title": "Proyecto 1",
+			"title": "Project 1",
+			"link": "https://github.com/mtatiana115",
 			"properties": [
 				{
 					"label": "Date",
@@ -19,7 +21,8 @@
 			]
 		},
 		{
-			"title": "Proyecto 2",
+			"title": "Project 2",
+			"link": "https://github.com/mtatiana115",
 			"properties": [
 				{
 					"label": "Date",
@@ -36,7 +39,8 @@
 			]
 		},
 		{
-			"title": "Proyecto 3",
+			"title": "Project 3",
+			"link": "https://github.com/mtatiana115",
 			"properties": [
 				{
 					"label": "Date",

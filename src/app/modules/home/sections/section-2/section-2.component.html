@@ -1,4 +1,9 @@
-<div class="main-container">
+<article class="main-container">
+	<h2 class="global__heading-2">
+		<strong>
+			{{ 'HOMESECTION2.title' | translate }}
+		</strong>
+	</h2>
 	<div class="__cards">
 		@for (project of projects; track $index) {
 			<div class="__card">
@@ -6,4 +11,4 @@
 			</div>
 		}
 	</div>
-</div>
+</article>

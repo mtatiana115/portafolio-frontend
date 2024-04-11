@@ -1,22 +1,39 @@
 @layer components {
 	.global__heading-1 {
-		@apply text-4xl;
+		@apply text-5xl
+    bg-clip-text
+    text-transparent
+    bg-gradient-to-r
+    from-pink-500
+    to-violet-500;
 
 		strong {
-			@apply font-semibold;
+			@apply font-bold;
 		}
 	}
 
 	.global__heading-2 {
-		@apply text-3xl;
+		@apply mb-8
+    text-center
+    text-3xl
+    bg-clip-text
+    text-transparent
+    bg-gradient-to-r
+    from-pink-500
+    to-violet-500;
 
 		strong {
-			@apply font-semibold;
+			@apply font-bold;
 		}
 	}
 
 	.global__heading-3 {
-		@apply text-2xl;
+		@apply text-2xl
+    bg-clip-text
+    text-transparent
+    bg-gradient-to-r
+    from-pink-500
+    to-violet-500;
 
 		strong {
 			@apply font-semibold;
@@ -24,7 +41,12 @@
 	}
 
 	.global__heading-4 {
-		@apply text-xl;
+		@apply text-xl
+    bg-clip-text
+    text-transparent
+    bg-gradient-to-r
+    from-pink-500
+    to-violet-500;
 
 		strong {
 			@apply font-semibold;

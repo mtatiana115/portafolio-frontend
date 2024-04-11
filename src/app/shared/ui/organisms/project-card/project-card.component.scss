@@ -1,0 +1,29 @@
+.proyect-card {
+	@apply block
+  w-full
+  p-4
+  rounded-xl
+  bg-zinc-700
+  cursor-pointer
+  transition-all
+  hover:scale-[1.01];
+	.__texts {
+		.__title {
+			@apply text-center
+      mb-3;
+		}
+		.__wrapper {
+			@apply mb-2;
+
+			.__label {
+				@apply inline
+        mr-1
+        text-white;
+			}
+			.__value {
+				@apply inline
+        text-white;
+			}
+		}
+	}
+}

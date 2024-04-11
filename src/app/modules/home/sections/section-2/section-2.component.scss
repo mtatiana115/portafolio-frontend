@@ -1,0 +1,15 @@
+.main-container {
+	.__cards {
+		@apply flex
+    flex-nowrap
+    gap-4
+    w-full
+    max-lg:overflow-x-hidden
+    lg:flex-wrap
+    lg:justify-center;
+		.__card {
+			@apply w-72
+      lg:w-[32%];
+		}
+	}
+}
