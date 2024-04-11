@@ -6,8 +6,9 @@
         py-14;
 
 			.__container {
-				@apply w-full
-            max-w-[1300px];
+				@apply w-[90%]
+        mx-auto
+        max-w-[1300px];
 			}
 
 			&:nth-child(1) {

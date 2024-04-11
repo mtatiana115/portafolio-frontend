@@ -4,11 +4,11 @@
     flex-nowrap
     gap-4
     w-full
-    max-lg:overflow-x-hidden
+    max-lg:overflow-x-scroll
     lg:flex-wrap
     lg:justify-center;
 		.__card {
-			@apply w-72
+			@apply min-w-72
       lg:w-[32%];
 		}
 	}
