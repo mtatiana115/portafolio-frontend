@@ -1,18 +1,30 @@
 .main-container {
 	.__header {
 		@apply fixed
+    z-[10]
 		top-0
 		left-0
 		flex
-        justify-center
+    justify-center
 		w-full
-        px-4;
-		background: rgb(255, 255, 255);
-		background: linear-gradient(129deg, rgba(255, 255, 255, 1) 40%, rgba(251, 180, 156, 1) 70%);
+    px-4
+    bg-rose-100;
 
 		.__container {
 			@apply max-w-[1300px]
-            w-full;
+      w-full;
+		}
+	}
+	.__footer {
+		@apply flex
+    justify-center
+		w-full
+    p-4
+    bg-rose-100;
+
+		.__container {
+			@apply max-w-[1300px]
+      w-full;
 		}
 	}
 }

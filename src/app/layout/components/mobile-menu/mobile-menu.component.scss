@@ -1,0 +1,8 @@
+.__menu {
+	@apply flex
+    items-center
+    gap-4;
+	.__span {
+		@apply text-rose-500;
+	}
+}

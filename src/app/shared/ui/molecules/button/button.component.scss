@@ -5,8 +5,12 @@
     px-4
     py-2
     rounded-md
-    bg-red-200
+    bg-rose-500
     cursor-pointer
     transition-all
-    hover:scale-105;
+    hover:scale-[1.01];
+
+	.__span {
+		@apply text-white;
+	}
 }

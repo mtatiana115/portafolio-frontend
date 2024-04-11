@@ -4,7 +4,9 @@
 			class="__item"
 			[routerLink]="item.modulePath"
 			[fragment]="item.fragmentLink">
-			<span class="global__text-1">{{ item.label }}</span>
+			<span class="global__text-1 __span">
+				<strong>{{ item.label }}</strong>
+			</span>
 		</a>
 	}
 </ul>
