@@ -28,3 +28,30 @@
 		}
 	}
 }
+
+.__mobile-menu {
+	.__container {
+		height: calc(100vh - 140px);
+		top: 140px;
+		@apply fixed
+		z-[9]
+		left-full
+		w-screen
+		bg-white
+		transition-all
+		lg:hidden;
+
+		&.--open {
+			@apply -translate-x-full;
+		}
+	}
+	.__layer {
+		@apply fixed
+		z-[4]
+		top-0
+		left-0
+		w-screen
+		h-screen
+		lg:hidden;
+	}
+}

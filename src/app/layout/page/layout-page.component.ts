@@ -9,11 +9,12 @@ import { UiManagerService } from '@services/ui-manager/ui-manager.service';
 // Components
 import { HeaderComponent } from '@layout/sections/header/header.component';
 import { FooterComponent } from '@layout/sections/footer/footer.component';
+import { MobileMenuComponent } from '@layout/components/mobile-menu/mobile-menu.component';
 
 @Component({
 	selector: 'app-layout-page',
 	standalone: true,
-	imports: [RouterOutlet, NgClass, HeaderComponent, FooterComponent],
+	imports: [RouterOutlet, NgClass, HeaderComponent, FooterComponent, MobileMenuComponent],
 	templateUrl: './layout-page.component.html',
 	styleUrl: './layout-page.component.scss',
 })

@@ -15,3 +15,16 @@
 		</div>
 	</footer>
 </div>
+
+<div class="__mobile-menu">
+	<div
+		class="__container"
+		[ngClass]="{ '--open': onMobileMenu }">
+		<app-mobile-menu></app-mobile-menu>
+	</div>
+	@if (onMobileMenu) {
+		<div
+			class="__layer"
+			(click)="toggleOnMobileMenu()"></div>
+	}
+</div>

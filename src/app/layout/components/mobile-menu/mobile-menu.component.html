@@ -3,8 +3,9 @@
 		<a
 			class="__item"
 			[routerLink]="item.modulePath"
-			[fragment]="item.fragmentLink">
-			<span class="global__text-1 __span">
+			[fragment]="item.fragmentLink"
+			(click)="toggleMenu()">
+			<span class="global__heading-4 __span">
 				<strong>{{ item.label }}</strong>
 			</span>
 		</a>

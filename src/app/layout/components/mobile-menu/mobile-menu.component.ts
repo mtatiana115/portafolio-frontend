@@ -8,6 +8,7 @@ import { Menus } from '@interfaces/menus.interfaces';
 
 // Services
 import { TranslateService } from '@ngx-translate/core';
+import { UiManagerService } from '@services/ui-manager/ui-manager.service';
 
 @Component({
 	selector: 'app-mobile-menu',
@@ -19,6 +20,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class MobileMenuComponent implements OnInit, OnDestroy {
 	private _translateService = inject(TranslateService);
 	private _platformId = inject(PLATFORM_ID);
+	private _uiManagerService = inject(UiManagerService);
 
 	menu: Menus[] = [];
 	subscriptions: Subscription[] = [];
@@ -42,5 +44,8 @@ export class MobileMenuComponent implements OnInit, OnDestroy {
 				.stream('LAYOUT.menu')
 				.subscribe({ next: (response) => (this.menu = response) })
 		);
+	}
+	toggleMenu() {
+		this._uiManagerService.toggleMobileMenu();
 	}
 }
