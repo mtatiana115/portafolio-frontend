@@ -7,15 +7,15 @@
 			"link": "https://github.com/mtatiana115",
 			"properties": [
 				{
-					"label": "Date",
-					"value": "2022"
+					"label": "Fecha",
+					"value": "2 de julio del 2022"
 				},
 				{
-					"label": "Description",
+					"label": "Descripción",
 					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
 				},
 				{
-					"label": "Technologies",
+					"label": "Tecnologías",
 					"value": "HTML, CSS, JavaScript"
 				}
 			]
@@ -25,15 +25,15 @@
 			"link": "https://github.com/mtatiana115",
 			"properties": [
 				{
-					"label": "Date",
-					"value": "2023"
+					"label": "Fecha",
+					"value": "4 de mayo del 2023"
 				},
 				{
-					"label": "Description",
+					"label": "Descripción",
 					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
 				},
 				{
-					"label": "Technologies",
+					"label": "Tecnologías",
 					"value": "HTML, CSS, JavaScript"
 				}
 			]
@@ -43,15 +43,15 @@
 			"link": "https://github.com/mtatiana115",
 			"properties": [
 				{
-					"label": "Date",
-					"value": "2024"
+					"label": "Fecha",
+					"value": "12 de diciembre del 2024"
 				},
 				{
-					"label": "Description",
+					"label": "Descripción",
 					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
 				},
 				{
-					"label": "Technologies",
+					"label": "Tecnologías",
 					"value": "HTML, CSS, JavaScript"
 				}
 			]
