@@ -12,6 +12,9 @@
 		lg:block
 		lg:w-fit;
 	}
+	.__switch-language {
+		@apply w-28;
+	}
 
 	.__menu-mobile {
 		@apply w-8
