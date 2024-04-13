@@ -1,5 +1,5 @@
 {
-	"sectionUrl": "section-4",
+	"sectionUrl": "contact-me",
 	"title": "Contact Me",
 	"form": {
 		"field-1": {
@@ -17,6 +17,9 @@
 		"field-4": {
 			"label": "Message",
 			"placeholder": "Type your message"
+		},
+		"field-5": {
+			"label": "I agree to the privacy policy"
 		},
 		"button": {
 			"text": "Send"

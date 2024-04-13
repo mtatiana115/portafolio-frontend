@@ -1,5 +1,5 @@
 {
-	"sectionUrl": "seccion-4",
+	"sectionUrl": "contactame",
 	"title": "Contáctame",
 	"form": {
 		"field-1": {
@@ -17,6 +17,9 @@
 		"field-4": {
 			"label": "Mensaje",
 			"placeholder": "Escribe tu mensaje"
+		},
+		"field-5": {
+			"label": "Estoy de acuerdo con la politica de privacidad"
 		},
 		"button": {
 			"text": "Enviar"
