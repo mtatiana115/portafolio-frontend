@@ -1,7 +1,8 @@
 .main-container {
 	.__form {
 		@apply space-y-4
-    lg:w-1/2;
+    lg:w-1/2
+    lg:mx-auto;
 		.__field {
 			.__label {
 				@apply block

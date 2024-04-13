@@ -3,7 +3,8 @@
 		.__section {
 			@apply flex
         justify-center
-        py-14;
+        py-14
+        overflow-hidden;
 
 			.__container {
 				@apply w-[90%]
