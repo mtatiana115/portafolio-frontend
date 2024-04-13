@@ -4,10 +4,12 @@
 		[href]="project.link"
 		rel="noopener noreferrer"
 		target="_blank">
-		<img
-			class="__image"
-			[src]="project.image"
-			[alt]="project.title" />
+		@if (project.image) {
+			<img
+				class="__image"
+				[src]="project.image"
+				[alt]="project.title" />
+		}
 		<div class="__texts">
 			<h3 class="global__heading-3 __title">
 				<strong>{{ project.title }}</strong>

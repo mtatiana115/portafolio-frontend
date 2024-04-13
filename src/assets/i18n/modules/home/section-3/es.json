@@ -1,4 +1,62 @@
 {
 	"sectionUrl": "formacion",
-	"title": "Formación"
+	"title": "Formación",
+	"articles": [
+		{
+			"title": "Estudios",
+			"properties": [
+				{
+					"label": "Programa",
+					"value": "Desarrollo Web"
+				},
+				{
+					"label": "Institución",
+					"value": "Riwi"
+				},
+				{
+					"label": "Estado",
+					"value": "Estudiante (2023 - Actualmente)"
+				}
+			]
+		},
+		{
+			"title": "Pregrado",
+			"properties": [
+				{
+					"label": "Programa",
+					"value": "Ingeniería de Ambiental"
+				},
+				{
+					"label": "Institución",
+					"value": "Universidad de Medellín"
+				},
+				{
+					"label": "Estado",
+					"value": "Graduado (2011 - 2016)"
+				}
+			]
+		}
+	],
+	"images": [
+		{
+			"icon": "assets/png/stacks/html.png",
+			"label": "Html"
+		},
+		{
+			"icon": "assets/png/stacks/css.png",
+			"label": "Css"
+		},
+		{
+			"icon": "assets/png/stacks/javascript.png",
+			"label": "Javascript"
+		},
+		{
+			"icon": "assets/png/stacks/java.png",
+			"label": "Java"
+		},
+		{
+			"icon": "assets/png/stacks/python.png",
+			"label": "Python"
+		}
+	]
 }

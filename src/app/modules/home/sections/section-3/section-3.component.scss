@@ -1,0 +1,35 @@
+.main-container {
+	.__content {
+		@apply lg:flex
+    lg:items-center
+    lg:justify-center
+    lg:gap-8;
+		.__texts {
+			@apply max-lg:mb-8
+      lg:w-fit;
+			.__item {
+				.__wrapper {
+					@apply mb-2;
+
+					.__label {
+						@apply inline
+            mr-1;
+					}
+					.__value {
+						@apply inline;
+					}
+				}
+			}
+		}
+		.__images {
+			@apply flex
+      flex-wrap
+      justify-center
+      gap-4
+      lg:w-[350px];
+			.__image {
+				@apply w-24;
+			}
+		}
+	}
+}

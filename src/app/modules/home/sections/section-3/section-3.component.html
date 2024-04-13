@@ -4,4 +4,33 @@
 			{{ 'HOMESECTION3.title' | translate }}
 		</strong>
 	</h2>
+	<div class="__content">
+		<div class="__texts">
+			@for (item of articles; track $index) {
+				<div class="__item">
+					<h3 class="global__heading-3">
+						<strong>{{ item.title }}</strong>
+					</h3>
+					@for (property of item.properties; track $index) {
+						<div class="__wrapper">
+							<p class="global__text-1 __label">
+								<strong>{{ property.label }}:</strong>
+							</p>
+							<p
+								class="global__text-1 __value"
+								[innerHTML]="property.value"></p>
+						</div>
+					}
+				</div>
+			}
+		</div>
+		<div class="__images">
+			@for (item of images; track $index) {
+				<img
+					class="__image"
+					[src]="item.icon"
+					[alt]="item.label" />
+			}
+		</div>
+	</div>
 </article>

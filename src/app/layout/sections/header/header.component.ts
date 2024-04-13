@@ -1,6 +1,8 @@
 import { Component, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 // Services
+import { TranslateModule } from '@ngx-translate/core';
 import { UiManagerService } from '@services/ui-manager/ui-manager.service';
 
 // Components
@@ -10,7 +12,7 @@ import { SwitchLanguageComponent } from '@layout/components/switch-language/swit
 @Component({
 	selector: 'app-header',
 	standalone: true,
-	imports: [DesktopMenuComponent, SwitchLanguageComponent],
+	imports: [RouterLink, TranslateModule, DesktopMenuComponent, SwitchLanguageComponent],
 	templateUrl: './header.component.html',
 	styleUrl: './header.component.scss',
 })

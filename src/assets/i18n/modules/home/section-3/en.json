@@ -1,4 +1,62 @@
 {
 	"sectionUrl": "education",
-	"title": "Education"
+	"title": "Education",
+	"articles": [
+		{
+			"title": "Studies",
+			"properties": [
+				{
+					"label": "Program",
+					"value": "Web Development"
+				},
+				{
+					"label": "Institution",
+					"value": "Riwi"
+				},
+				{
+					"label": "Status",
+					"value": "Student (2023 - Currently)"
+				}
+			]
+		},
+		{
+			"title": "Degrees",
+			"properties": [
+				{
+					"label": "Program",
+					"value": "Environmental Engineering"
+				},
+				{
+					"label": "Institution",
+					"value": "University of Medellín"
+				},
+				{
+					"label": "Status",
+					"value": "Graduate (2011 - 2016)"
+				}
+			]
+		}
+	],
+	"images": [
+		{
+			"icon": "assets/png/stacks/html.png",
+			"label": "Html"
+		},
+		{
+			"icon": "assets/png/stacks/css.png",
+			"label": "Css"
+		},
+		{
+			"icon": "assets/png/stacks/javascript.png",
+			"label": "Javascript"
+		},
+		{
+			"icon": "assets/png/stacks/java.png",
+			"label": "Java"
+		},
+		{
+			"icon": "assets/png/stacks/python.png",
+			"label": "Python"
+		}
+	]
 }

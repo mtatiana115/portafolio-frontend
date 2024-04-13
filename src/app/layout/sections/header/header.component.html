@@ -1,9 +1,12 @@
 <nav class="main-container">
-	<img
-		class="__logo"
-		src="assets/svg/logos/logo-1.png"
-		alt="logo" />
-
+	<a
+		routerLink="/home"
+		[fragment]="'HOMESECTION1.sectionUrl' | translate">
+		<img
+			class="__logo"
+			src="assets/png/logos/logo-1.png"
+			alt="logo" />
+	</a>
 	<div class="__menu-desktop">
 		<app-desktop-menu></app-desktop-menu>
 	</div>
