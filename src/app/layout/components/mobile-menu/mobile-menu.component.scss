@@ -1,7 +1,8 @@
 .__menu {
 	@apply flex
   flex-col
-    gap-4;
+  gap-4
+  p-4;
 	.__span {
 		@apply text-rose-500;
 	}
