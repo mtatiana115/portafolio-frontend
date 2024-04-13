@@ -3,22 +3,25 @@
 		{
 			"label": "Acerca de mi",
 			"modulePath": "/home",
-			"fragmentLink": "seccion-1"
+			"fragmentLink": "acerca-de-mi"
 		},
 		{
 			"label": "Proyectos",
 			"modulePath": "/home",
-			"fragmentLink": "seccion-2"
+			"fragmentLink": "mis-proyectos"
 		},
 		{
 			"label": "Formación",
 			"modulePath": "/home",
-			"fragmentLink": "seccion-3"
+			"fragmentLink": "formacion"
 		},
 		{
 			"label": "Contáctame",
 			"modulePath": "/home",
-			"fragmentLink": "seccion-4"
+			"fragmentLink": "contactame"
 		}
-	]
+	],
+	"footer": {
+		"text": "Política de privacidad"
+	}
 }

@@ -1,1 +1,60 @@
-<p>privacy-policy-page works!</p>
+<div class="global__modules-container">
+	@for (section of content.sections; track $index) {
+		<section class="__section">
+			<div class="__container">
+				@for (article of section.articles; track $index) {
+					<article class="__article">
+						@if (article.title) {
+							<h2 class="global__heading-2 __title">
+								<strong>{{ article.title }}</strong>
+							</h2>
+						}
+						@if (article.subtitle) {
+							<h3 class="global__heading-3 __subtitle">
+								<strong>{{ article.subtitle }}</strong>
+							</h3>
+						}
+						@if (article.texts1) {
+							@for (text of article.texts1; track $index) {
+								<p
+									class="global__text-1 __text"
+									[innerHTML]="text"></p>
+							}
+						}
+						@if (article.list1) {
+							<ul class="__list">
+								@for (text of article.list1; track $index) {
+									<li class="__item">
+										<span class="global__text-1 __bullet">&bull;</span>
+										<span
+											class="global__text-1 __text"
+											[innerHTML]="text"></span>
+									</li>
+								}
+							</ul>
+						}
+						@if (article.texts__2) {
+							@for (text of article.texts2; track $index) {
+								<p
+									class="global__text-1 __text"
+									[innerHTML]="text"></p>
+							}
+						}
+						@if (article.list2) {
+							<ul class="__list">
+								@for (text of article.list2; track $index) {
+									<li class="__item">
+										<span class="global__text-1 __bullet">&bull;</span>
+										<span
+											class="global__text-1 __text"
+											[innerHTML]="text"></span>
+									</li>
+								}
+							</ul>
+						}
+					</article>
+				}
+			</div>
+		</section>
+	}
+</div>

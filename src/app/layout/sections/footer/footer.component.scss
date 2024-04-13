@@ -1,7 +1,12 @@
 .main-container {
-	@apply w-full
-  text-center;
+	@apply w-full;
 	.__span {
-		@apply text-rose-500;
+		@apply block
+    w-fit
+    mx-auto
+    text-rose-500;
+	}
+	.--link {
+		@apply hover:underline;
 	}
 }

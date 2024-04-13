@@ -71,6 +71,17 @@
 						rows="10"
 						[placeholder]="'HOMESECTION4.form.field-4.placeholder' | translate"></textarea>
 				</fieldset>
+				<fieldset class="__field --privacy-policy">
+					<input
+						type="checkbox"
+						formControlName="privacyPolicy"
+						id="privacyPolicy" />
+					<label
+						class="global__text-1 __label"
+						for="privacyPolicy">
+						{{ 'HOMESECTION4.form.field-5.label' | translate }}
+					</label>
+				</fieldset>
 				<div class="__button">
 					<app-button [text]="'HOMESECTION4.form.button.text' | translate"></app-button>
 				</div>

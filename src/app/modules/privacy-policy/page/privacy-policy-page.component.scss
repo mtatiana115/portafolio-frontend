@@ -1,0 +1,25 @@
+.global__modules-container {
+	.__section {
+		.__container {
+			.__article {
+				@apply mb-10;
+				.__subtitle {
+					@apply mb-6;
+				}
+				.__list {
+					@apply pl-4;
+					.__item {
+						@apply mb-2;
+						.__bullet {
+							@apply inline
+							mr-1;
+						}
+						.__text {
+							@apply inline;
+						}
+					}
+				}
+			}
+		}
+	}
+}

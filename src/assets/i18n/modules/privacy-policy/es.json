@@ -1,0 +1,134 @@
+{
+	"content": {
+		"sections": [
+			{
+				"articles": [
+					{
+						"title": "Política de Privacidad",
+						"texts1": [
+							"<strong>Última actualización: 13 de abril de 2024</strong>",
+							"Esta Política de Privacidad describe Nuestras políticas y procedimientos sobre la recopilación, uso y divulgación de Su información cuando utiliza el Servicio y le informa sobre Sus derechos de privacidad y cómo la ley lo protege.",
+							"Utilizamos Sus datos personales para proporcionar y mejorar el Servicio. Al usar el Servicio, Usted acepta la recopilación y uso de información de acuerdo con esta Política de Privacidad. Esta Política de Privacidad ha sido creada con la ayuda de TermsFeed Privacy Policy Generator."
+						]
+					}
+				]
+			},
+			{
+				"articles": [
+					{
+						"title": "Interpretación y Definiciones",
+						"subtitle": "Interpretación",
+						"texts1": [
+							"Las palabras cuyas letras iniciales estén en mayúsculas tienen significados definidos bajo las siguientes condiciones. Las siguientes definiciones tendrán el mismo significado independientemente de si aparecen en singular o en plural."
+						]
+					},
+					{
+						"title": "Definiciones",
+						"texts1": ["A los efectos de esta Política de Privacidad:"],
+						"list1": [
+							"<strong>Cuenta</strong> significa una cuenta única creada para Usted para acceder a nuestro Servicio o partes de nuestro Servicio.",
+							"<strong>Afiliado</strong> significa una entidad que controla, está controlada por, o está bajo control común con una parte, donde 'control' significa propiedad de 50% o más de las acciones, interés de capital u otros valores con derecho a voto para la elección de directores u otra autoridad administrativa.",
+							"<strong>Compañía</strong> (referida ya sea como 'la Compañía', 'Nosotros', 'Nos' o 'Nuestro' en este Acuerdo) se refiere a Portafolio Tatiana, Colombia.",
+							"<strong>Cookies</strong> son pequeños archivos que se colocan en su computadora, dispositivo móvil o cualquier otro dispositivo por un sitio web, conteniendo los detalles de su historial de navegación en ese sitio web entre sus muchos usos.",
+							"<strong>País</strong> se refiere a: Colombia",
+							"<strong>Dispositivo</strong> significa cualquier dispositivo que pueda acceder al Servicio como una computadora, un teléfono celular o una tableta digital.",
+							"<strong>Datos Personales</strong> es cualquier información que se relaciona con una persona identificada o identificable.",
+							"<strong>Servicio</strong> se refiere al Sitio Web.",
+							"<strong>Proveedor del Servicio</strong> significa cualquier persona natural o jurídica que procesa los datos en nombre de la Compañía. Se refiere a compañías o individuos terceros contratados por la Compañía para facilitar el Servicio, para proporcionar el Servicio en nombre de la Compañía, para realizar servicios relacionados con el Servicio o para asistir a la Compañía en analizar cómo se utiliza el Servicio.",
+							"<strong>Datos de Uso</strong> se refiere a datos recopilados automáticamente, generados por el uso del Servicio o desde la infraestructura del Servicio en sí (por ejemplo, la duración de una visita a la página).",
+							"<strong>Sitio Web</strong> se refiere a Portafolio Tatiana, accesible desde <a href=\"https://portafoliotatiana.netlify.app/home\" rel=\"external nofollow noopener\" target=\"_blank\">https://portafoliotatiana.netlify.app/home</a>",
+							"<strong>Usted</strong> significa la persona que accede o usa el Servicio, o la compañía, u otra entidad legal en nombre de la cual dicha persona está accediendo o usando el Servicio, según sea aplicable."
+						]
+					}
+				]
+			},
+			{
+				"articles": [
+					{
+						"title": "Recolección y Uso de Sus Datos Personales",
+						"subtitle": "Tipos de Datos Recolectados",
+						"texts1": [
+							"<strong>Datos Personales</strong>",
+							"Al utilizar Nuestro Servicio, podríamos solicitarle que nos proporcione cierta información personal identificable que puede ser utilizada para contactarlo o identificarlo. La información personal identificable puede incluir, pero no se limita a:"
+						],
+						"list1": ["Dirección de correo electrónico", "Nombre y apellido", "Datos de Uso"]
+					},
+					{
+						"subtitle": "Datos de Uso",
+						"texts1": [
+							"Los Datos de Uso se recopilan automáticamente al utilizar el Servicio.",
+							"Los Datos de Uso pueden incluir información como la dirección de Protocolo de Internet (por ejemplo, dirección IP) de su dispositivo, tipo de navegador, versión del navegador, las páginas de nuestro Servicio que visita, la fecha y hora de su visita, el tiempo que pasa en esas páginas, identificadores únicos de dispositivos y otros datos diagnósticos.",
+							"Cuando accede al Servicio a través de un dispositivo móvil, podemos recopilar cierta información de forma automática, incluyendo, pero no limitado a, el tipo de dispositivo móvil que usa, el ID único de su dispositivo móvil, la dirección IP de su dispositivo móvil, su sistema operativo móvil, el tipo de navegador de Internet móvil que utiliza, identificadores únicos de dispositivos y otros datos diagnósticos.",
+							"También podemos recopilar información que su navegador envía cada vez que visita nuestro Servicio o cuando accede al Servicio a través de un dispositivo móvil."
+						]
+					},
+					{
+						"subtitle": "Tecnologías de Rastreo y Cookies",
+						"texts1": [
+							"Utilizamos Cookies y tecnologías de rastreo similares para seguir la actividad en Nuestro Servicio y almacenar cierta información. Las tecnologías de rastreo utilizadas son balizas, etiquetas y scripts para recopilar y seguir la información y para mejorar y analizar Nuestro Servicio. Las tecnologías que utilizamos pueden incluir:"
+						],
+						"list1": [
+							"<strong>Cookies o Cookies del Navegador.</strong> Una cookie es un pequeño archivo colocado en su Dispositivo. Puede instruir a su navegador para rechazar todas las Cookies o para indicar cuándo se envía una Cookie. Sin embargo, si no acepta Cookies, puede no ser capaz de usar algunas partes de nuestro Servicio. A menos que haya ajustado la configuración de su navegador para rechazar Cookies, nuestro Servicio puede usar Cookies.",
+							"<strong>Web Beacons.</strong> Ciertas secciones de nuestro Servicio y nuestros correos electrónicos pueden contener pequeños archivos electrónicos conocidos como web beacons (también referidos como gifs transparentes, etiquetas de píxeles y gifs de un solo píxel) que permiten a la Compañía, por ejemplo, contar usuarios que han visitado esas páginas o abierto un correo electrónico y para otras estadísticas relacionadas con el sitio web (por ejemplo, registrar la popularidad de una sección específica y verificar la integridad del sistema y del servidor)."
+						],
+						"texts2": [
+							"También podemos recopilar información que su navegador envía cada vez que visita nuestro Servicio o cuando accede al Servicio a través de un dispositivo móvil. Las Cookies pueden ser 'Persistentes' o 'De Sesión'. Las Cookies Persistentes permanecen en su computadora personal o dispositivo móvil cuando usted está offline, mientras que las Cookies de Sesión se eliminan tan pronto como cierra su navegador web. Puede aprender más sobre las cookies en el artículo sobre cookies del sitio web de TermsFeed. Utilizamos tanto Cookies de Sesión como Persistentes para los fines que se detallan a continuación:"
+						],
+						"list2": [
+							"<strong>Cookies Necesarias / Esenciales</strong>. Tipo: Cookies de Sesión. Administradas por: Nosotros. Propósito: Estas Cookies son esenciales para proporcionarle los servicios disponibles a través del Sitio Web y para permitirle usar algunas de sus características. Ayudan a autenticar a los usuarios y prevenir el uso fraudulento de cuentas de usuarios. Sin estas Cookies, los servicios que ha solicitado no pueden ser proporcionados, y solo usamos estas Cookies para proporcionarle esos servicios.",
+							"<strong>Cookies de Política de Cookies / Aceptación de Aviso</strong>. Tipo: Cookies Persistentes. Administradas por: Nosotros. Propósito: Estas Cookies identifican si los usuarios han aceptado el uso de cookies en el Sitio Web.",
+							"<strong>Cookies de Funcionalidad</strong>. Tipo: Cookies Persistentes. Administradas por: Nosotros. Propósito: Estas Cookies nos permiten recordar las elecciones que hace cuando utiliza el Sitio Web, como recordar sus detalles de inicio de sesión o preferencia de idioma. El propósito de estas Cookies es proporcionarle una experiencia más personal y evitar que tenga que reintroducir sus preferencias cada vez que utiliza el Sitio Web.",
+							"Para más información sobre las cookies que utilizamos y sus opciones respecto a las cookies, por favor visite nuestra Política de Cookies o la sección de Cookies de nuestra Política de Privacidad."
+						]
+					}
+				]
+			},
+			{
+				"articles": [
+					{
+						"title": "Privacidad de los Niños",
+						"texts1": [
+							"Nuestro Servicio no se dirige a nadie menor de 13 años. No recopilamos conscientemente información personal identificable de nadie menor de 13 años. Si usted es un padre o tutor y es consciente de que su hijo nos ha proporcionado Datos Personales, por favor contáctenos. Si nos damos cuenta de que hemos recopilado Datos Personales de alguien menor de 13 años sin la verificación del consentimiento de los padres, tomamos medidas para eliminar esa información de nuestros servidores.",
+							"Si necesitamos confiar en el consentimiento como base legal para procesar su información y su país requiere el consentimiento de un padre, podemos requerir el consentimiento de su padre antes de recopilar y usar esa información."
+						]
+					}
+				]
+			},
+			{
+				"articles": [
+					{
+						"title": "Enlaces a Otros Sitios Web",
+						"texts1": [
+							"Nuestro Servicio puede contener enlaces a otros sitios web que no son operados por nosotros. Si usted hace clic en un enlace de un tercero, será dirigido al sitio de ese tercero. Le aconsejamos fuertemente que revise la Política de Privacidad de cada sitio que visite.",
+							"No tenemos control sobre y no asumimos ninguna responsabilidad por el contenido, políticas de privacidad o prácticas de ningún sitio o servicios de terceros."
+						]
+					}
+				]
+			},
+			{
+				"articles": [
+					{
+						"title": "Cambios en Esta Política de Privacidad",
+						"texts1": [
+							"Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Le informaremos a través de un correo electrónico y/o un aviso destacado en Nuestro Servicio, antes de que el cambio se vuelva efectivo y actualizaremos la fecha de 'Última actualización' en la parte superior de esta Política de Privacidad. Se le aconseja revisar esta Política de Privacidad periódicamente para cualquier cambio. Los cambios en esta Política de Privacidad son efectivos cuando se publican en esta página."
+						]
+					}
+				]
+			},
+			{
+				"articles": [
+					{
+						"title": "Contáctenos",
+						"texts1": [
+							"Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos:"
+						],
+						"list1": [
+							"Por correo electrónico: mtatiana115@gmail.com",
+							"Visitando esta página en nuestro sitio web: https://portafoliotatiana.netlify.app/home"
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -3,22 +3,25 @@
 		{
 			"label": "About Me",
 			"modulePath": "/home",
-			"fragmentLink": "section-1"
+			"fragmentLink": "about-me"
 		},
 		{
 			"label": "Projects",
 			"modulePath": "/home",
-			"fragmentLink": "section-2"
+			"fragmentLink": "my-projects"
 		},
 		{
 			"label": "Education",
 			"modulePath": "/home",
-			"fragmentLink": "section-3"
+			"fragmentLink": "education"
 		},
 		{
 			"label": "Contact Me",
 			"modulePath": "/home",
-			"fragmentLink": "seccion-4"
+			"fragmentLink": "contact-me"
 		}
-	]
+	],
+	"footer": {
+		"text": "Privacy policy"
+	}
 }

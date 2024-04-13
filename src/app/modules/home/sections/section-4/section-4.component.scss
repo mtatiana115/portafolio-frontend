@@ -22,6 +22,19 @@
           py-2;
 				}
 			}
+
+			&.--privacy-policy {
+				@apply text-center
+        lg:w-fit
+        lg:mx-auto;
+				.__label {
+					@apply inline
+          cursor-pointer;
+				}
+				.__input {
+					@apply inline;
+				}
+			}
 		}
 		.__button {
 			@apply w-fit
