@@ -40,16 +40,15 @@ export class SwitchLanguageComponent implements OnInit, OnDestroy {
 				.stream('languages')
 				.subscribe({ next: (response) => (this.languages = response) })
 		);
-
-		this.switchLanguage('es');
+		this.switchLanguage(this._translateService.getDefaultLang());
 	}
 
 	switchLanguage(keyword: string) {
 		this.choosenLanguage = this.languages.find((option) => {
 			return option.keyword === keyword;
 		});
-
 		this._translateService.use(keyword);
+		localStorage.setItem('language', keyword);
 	}
 
 	toggleOptions() {

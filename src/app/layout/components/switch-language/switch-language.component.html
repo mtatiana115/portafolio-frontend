@@ -6,7 +6,9 @@
 			class="__icon"
 			[src]="choosenLanguage?.icon"
 			alt="flag" />
-		<span class="global__text-2">{{ choosenLanguage?.label }}</span>
+		<span class="global__text-2 __span">
+			<strong>{{ choosenLanguage?.label }}</strong>
+		</span>
 	</div>
 	<ul
 		class="__options"
@@ -20,7 +22,9 @@
 					class="__icon"
 					[src]="item.icon"
 					alt="flag" />
-				<span class="global__text-2">{{ item.label }}</span>
+				<span class="global__text-2 __span">
+					<strong>{{ item.label }}</strong>
+				</span>
 			</li>
 		}
 	</ul>

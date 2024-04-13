@@ -1,5 +1,7 @@
 .main-container {
-	@apply relative;
+	@apply relative
+  w-full
+  cursor-pointer;
 
 	.__common-styles {
 		@apply flex
@@ -7,6 +9,10 @@
 		gap-2
 		py-1
 		px-2;
+
+		.__span {
+			@apply text-rose-500;
+		}
 	}
 
 	.__icon {
@@ -16,13 +22,21 @@
 
 	.__options {
 		@apply absolute
-        invisible
-        opacity-0
+    w-full
+    rounded-b-md
+    invisible
+    opacity-0
+    overflow-hidden
 		bg-red-100;
 
 		&.--open {
 			@apply visible
-            opacity-100;
+      opacity-100;
+		}
+
+		.__option {
+			@apply transition-all
+      hover:bg-red-300;
 		}
 	}
 }
