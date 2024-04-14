@@ -3,8 +3,9 @@
 	"title": "My Projects",
 	"projects": [
 		{
-			"title": "Project 1",
-			"link": "https://github.com/mtatiana115",
+			"title": "Veterinary system",
+			"image": "assets/png/projects/veterinaria.png",
+			"link": "https://mtatiana115.github.io/veterinaria",
 			"properties": [
 				{
 					"label": "Date",
@@ -45,6 +46,25 @@
 				{
 					"label": "Date",
 					"value": "December 12, 2024"
+				},
+				{
+					"label": "Description",
+					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+				},
+				{
+					"label": "Technologies",
+					"value": "HTML, CSS, JavaScript"
+				}
+			]
+		},
+		{
+			"title": "Veterinary system",
+			"image": "assets/png/projects/veterinaria.png",
+			"link": "https://mtatiana115.github.io/veterinaria",
+			"properties": [
+				{
+					"label": "Date",
+					"value": "July 2, 2022"
 				},
 				{
 					"label": "Description",

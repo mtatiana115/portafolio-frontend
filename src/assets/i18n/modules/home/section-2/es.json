@@ -3,8 +3,9 @@
 	"title": "Mis Proyectos",
 	"projects": [
 		{
-			"title": "Proyecto 1",
-			"link": "https://github.com/mtatiana115",
+			"title": "Sistema veterinaria",
+			"image": "assets/png/projects/veterinaria.png",
+			"link": "https://mtatiana115.github.io/veterinaria",
 			"properties": [
 				{
 					"label": "Fecha",
