@@ -3,17 +3,55 @@
 	"title": "My Projects",
 	"projects": [
 		{
-			"title": "Veterinary system",
-			"image": "assets/png/projects/veterinaria.png",
-			"link": "https://mtatiana115.github.io/veterinaria",
+			"title": "Carbon Footprint",
+			"image": "assets/png/projects/footprint.png",
+			"link": "https://mtatiana115.github.io/Ecological-Footprint/English/index.html",
 			"properties": [
 				{
 					"label": "Date",
-					"value": "July 2, 2022"
+					"value": "2023"
 				},
 				{
 					"label": "Description",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "It is an interactive website that offers a carbon footprint calculator for businesses and homes. The calculator will allow users to evaluate and understand their environmental impact related to utilities and offer recommendations to reduce their carbon footprint."
+				},
+				{
+					"label": "Technologies",
+					"value": "HTML and CSS"
+				}
+			]
+		},
+		{
+			"title": "Hogwarts",
+			"image": "assets/png/projects/Hogwarts.png",
+			"link": "https://mtatiana115.github.io/Riwi-Hogwarts",
+			"properties": [
+				{
+					"label": "Date",
+					"value": "2023"
+				},
+				{
+					"label": "Description",
+					"value": "It is an interactive website related to the Harry Potter movie, anyone interested can register to see their animal patronus and their house belonging at Hogwarts School of Witchcraft and Wizardry, each with its own unique qualities and values."
+				},
+				{
+					"label": "Technologies",
+					"value": "HTML and CSS"
+				}
+			]
+		},
+		{
+			"title": "API find movies",
+			"image": "assets/png/projects/movies.png",
+			"link": "https://mtatiana115.github.io/movies/",
+			"properties": [
+				{
+					"label": "Date",
+					"value": "2023"
+				},
+				{
+					"label": "Description",
+					"value": "It is an intuitive website designed to search for a movie with a match in any letter of its name, offering a user-friendly interface. An OMDb API is employed. All content and images on the OMDb API are diligently contributed to and maintained by its users."
 				},
 				{
 					"label": "Technologies",
@@ -22,16 +60,17 @@
 			]
 		},
 		{
-			"title": "Project 2",
-			"link": "https://github.com/mtatiana115",
+			"title": "Shopping cart",
+			"image": "assets/png/projects/shopping.png",
+			"link": "https://mtatiana115.github.io/Shopping/",
 			"properties": [
 				{
 					"label": "Date",
-					"value": "May 4,2023"
+					"value": "2024"
 				},
 				{
 					"label": "Description",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "It is an interactive website dedicated to online shopping, where you can add and manage products of your interest in a dynamic shopping cart. This platform is designed to streamline your shopping experience, allowing for efficient organization and handling of the desired products"
 				},
 				{
 					"label": "Technologies",
@@ -40,16 +79,17 @@
 			]
 		},
 		{
-			"title": "Project 3",
-			"link": "https://github.com/mtatiana115",
+			"title": "SpaceX's launches",
+			"image": "assets/png/projects/spaceX.png",
+			"link": "https://mtatiana115.github.io/spaceX/",
 			"properties": [
 				{
 					"label": "Date",
-					"value": "December 12, 2024"
+					"value": "2024"
 				},
 				{
 					"label": "Description",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "This website is an informative hub that offers detailed insights into SpaceX's groundbreaking launches. Here, you can delve into various aspects of each mission, including the mission name, captivating rocket launch videos, the launch year, and other complex details of space exploration."
 				},
 				{
 					"label": "Technologies",
@@ -58,17 +98,17 @@
 			]
 		},
 		{
-			"title": "Veterinary system",
-			"image": "assets/png/projects/veterinaria.png",
-			"link": "https://mtatiana115.github.io/veterinaria",
+			"title": "CuidaMatch",
+			"image": "assets/png/projects/Cuidamatch.png",
+			"link": "https://github.com/mtatiana115/CuidaMatch",
 			"properties": [
 				{
 					"label": "Date",
-					"value": "July 2, 2022"
+					"value": "2024"
 				},
 				{
 					"label": "Description",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "It is a website for connecting caregivers and people under medical care. The fundamental purpose lies in addressing the difficulties that families face when searching for and selecting caregivers trained to meet the specific needs of their loved ones and improve their quality of life."
 				},
 				{
 					"label": "Technologies",

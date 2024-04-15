@@ -3,17 +3,55 @@
 	"title": "Mis Proyectos",
 	"projects": [
 		{
-			"title": "Sistema veterinaria",
-			"image": "assets/png/projects/veterinaria.png",
-			"link": "https://mtatiana115.github.io/veterinaria",
+			"title": "Huella de carbono",
+			"image": "assets/png/projects/footprint.png",
+			"link": "https://mtatiana115.github.io/Ecological-Footprint/English/index.html",
 			"properties": [
 				{
 					"label": "Fecha",
-					"value": "2 de julio del 2022"
+					"value": "2023"
 				},
 				{
 					"label": "Descripción",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "Es un sitio web interactivo que ofrece una calculadora de huella de carbono para empresas y hogares. La calculadora permitirá a los usuarios evaluar y comprender su impacto ambiental relacionado con los servicios públicos y ofrecer recomendaciones para reducir su huella de carbono."
+				},
+				{
+					"label": "Tecnologías",
+					"value": "HTML y CSS"
+				}
+			]
+		},
+		{
+			"title": "Hogwarts",
+			"image": "assets/png/projects/Hogwarts.png",
+			"link": "https://mtatiana115.github.io/Riwi-Hogwarts",
+			"properties": [
+				{
+					"label": "Fecha",
+					"value": "2023"
+				},
+				{
+					"label": "Descripción",
+					"value": "Es un sitio web interactivo relacionado con la película de Harry Potter, cualquier persona interesada puede registrarse para ver su animal patronus y su casa perteneciente al Colegio Hogwarts de Magia y Hechicería, cada uno con sus propias cualidades y valores únicos."
+				},
+				{
+					"label": "Tecnologías",
+					"value": "HTML y CSS"
+				}
+			]
+		},
+		{
+			"title": "API de películas",
+			"image": "assets/png/projects/movies.png",
+			"link": "https://mtatiana115.github.io/movies/",
+			"properties": [
+				{
+					"label": "Fecha",
+					"value": "2023"
+				},
+				{
+					"label": "Descripción",
+					"value": "Es un sitio web intuitivo diseñado para buscar una película que coincida con cualquier letra de su nombre, ofreciendo una interfaz fácil de usar. Se emplea una API de OMDb. Todo el contenido y las imágenes de la API de OMDb son aportados y mantenidos diligentemente por sus usuarios."
 				},
 				{
 					"label": "Tecnologías",
@@ -22,16 +60,17 @@
 			]
 		},
 		{
-			"title": "Proyecto 2",
-			"link": "https://github.com/mtatiana115",
+			"title": "Carrito de compras",
+			"image": "assets/png/projects/shopping.png",
+			"link": "https://mtatiana115.github.io/Shopping/",
 			"properties": [
 				{
 					"label": "Fecha",
-					"value": "4 de mayo del 2023"
+					"value": "2024"
 				},
 				{
 					"label": "Descripción",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "Es un sitio web interactivo dedicado a las compras online, donde podrás agregar y administrar productos de tu interés en un carrito de compras dinámico. Esta plataforma está diseñada para agilizar su experiencia de compra, permitiendo una organización y manejo eficiente de los productos deseados."
 				},
 				{
 					"label": "Tecnologías",
@@ -40,16 +79,36 @@
 			]
 		},
 		{
-			"title": "Proyecto 3",
-			"link": "https://github.com/mtatiana115",
+			"title": "Lanzamientos SpaceX",
+			"image": "assets/png/projects/spaceX.png",
+			"link": "https://mtatiana115.github.io/spaceX/",
 			"properties": [
 				{
 					"label": "Fecha",
-					"value": "12 de diciembre del 2024"
+					"value": "2024"
 				},
 				{
 					"label": "Descripción",
-					"value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deleniti sunt perspiciatis sed accusamus! Pariatur."
+					"value": "Este sitio web es un centro informativo que ofrece información detallada sobre los lanzamientos innovadores de SpaceX. Aquí podrás profundizar en varios aspectos de cada misión, incluido el nombre de la misión, cautivadores videos de lanzamiento de cohetes, el año de lanzamiento y otros detalles complejos de la exploración espacial."
+				},
+				{
+					"label": "Tecnologías",
+					"value": "HTML, CSS, JavaScript"
+				}
+			]
+		},
+		{
+			"title": "CuidaMatch",
+			"image": "assets/png/projects/Cuidamatch.png",
+			"link": "https://github.com/mtatiana115/CuidaMatch",
+			"properties": [
+				{
+					"label": "Fecha",
+					"value": "2024"
+				},
+				{
+					"label": "Descripción",
+					"value": "Es un sitio web para conectar a cuidadores y personas bajo atención médica. El propósito fundamental radica en abordar las dificultades que enfrentan las familias a la hora de buscar y seleccionar cuidadores capacitados para atender las necesidades específicas de sus seres queridos y mejorar su calidad de vida."
 				},
 				{
 					"label": "Tecnologías",
