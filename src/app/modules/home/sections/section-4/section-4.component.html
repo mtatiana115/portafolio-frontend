@@ -24,6 +24,23 @@
 						id="name"
 						type="text"
 						[placeholder]="'HOMESECTION4.form.field-1.placeholder' | translate" />
+					@if (formName?.touched) {
+						<div class="__validation">
+							@if (formName?.hasError('required')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.validations.required' | translate
+								}}</span>
+							} @else if (formName?.hasError('minlenght')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.field-1.minlenght' | translate
+								}}</span>
+							} @else if (formName?.hasError('maxlenght')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.field-1.maxlenght' | translate
+								}}</span>
+							}
+						</div>
+					}
 				</fieldset>
 				<fieldset class="__field">
 					<label
@@ -39,6 +56,19 @@
 						id="email"
 						type="email"
 						[placeholder]="'HOMESECTION4.form.field-2.placeholder' | translate" />
+					@if (formEmail?.touched) {
+						<div class="__validation">
+							@if (formEmail?.hasError('required')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.validations.required' | translate
+								}}</span>
+							} @else if (formEmail?.hasError('email')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.field-2.email' | translate
+								}}</span>
+							}
+						</div>
+					}
 				</fieldset>
 				<fieldset class="__field">
 					<label
@@ -54,6 +84,15 @@
 						id="subject"
 						type="text"
 						[placeholder]="'HOMESECTION4.form.field-3.placeholder' | translate" />
+					@if (formSubject?.touched) {
+						<div class="__validation">
+							@if (formSubject?.hasError('required')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.validations.required' | translate
+								}}</span>
+							}
+						</div>
+					}
 				</fieldset>
 				<fieldset class="__field">
 					<label
@@ -70,6 +109,15 @@
 						cols="50"
 						rows="10"
 						[placeholder]="'HOMESECTION4.form.field-4.placeholder' | translate"></textarea>
+					@if (formMessage?.touched) {
+						<div class="__validation">
+							@if (formMessage?.hasError('required')) {
+								<span class="global__text-2 __span">{{
+									'HOMESECTION4.form.validations.required' | translate
+								}}</span>
+							}
+						</div>
+					}
 				</fieldset>
 				<fieldset class="__field --privacy-policy">
 					<input

@@ -4,11 +4,14 @@
 	"form": {
 		"field-1": {
 			"label": "Nombre",
-			"placeholder": "Escribe tu nombre"
+			"placeholder": "Escribe tu nombre",
+			"minlenght": "Este campo debe tener mínimo 3 caracteres",
+			"maxlenght": "Este campo debe tener máximo 40 caracteres"
 		},
 		"field-2": {
 			"label": "Correo electrónico",
-			"placeholder": "alguien@example.com"
+			"placeholder": "alguien@example.com",
+			"email": "Este campo debe ser un email válido"
 		},
 		"field-3": {
 			"label": "Asunto",
@@ -23,6 +26,9 @@
 		},
 		"button": {
 			"text": "Enviar"
+		},
+		"validations": {
+			"required": "Este campo es requerido"
 		}
 	}
 }

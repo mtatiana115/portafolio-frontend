@@ -22,6 +22,12 @@
           py-2;
 				}
 			}
+			.__validation {
+				.__span {
+					@apply block
+					text-red-500;
+				}
+			}
 
 			&.--privacy-policy {
 				@apply text-center
